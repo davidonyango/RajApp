@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GetrajActivity"
+    android:orientation="horizontal"
+    android:background="#FFFF00">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/ll_scrollviewlayout_id">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/sv_scrollview_">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_contentlayout_id">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_name_id"
+                    android:text="Name"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="30dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_myname_id"
+                    android:text="My name"
+                    android:textStyle="italic"
+                   android:layout_centerHorizontal="true"
+                    android:textSize="20dp"
+                    android:textColor="#000000"
+                    android:layout_marginTop="30dp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_country_id"
+                    android:text="Country"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv_name_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginLeft="20dp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_countryname_id"
+                    android:text="Country name"
+                    android:textColor="#FFF000"
+                    android:textSize="20dp"
+                    android:textStyle="italic"
+                    android:layout_below="@id/tv_name_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_location_id"
+                    android:text="My location"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_marginTop="150dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_locationdescription_id"
+                    android:text="Location description"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_marginTop="200dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingRight="80dp"
+                    android:paddingLeft="80dp"
+                    android:paddingBottom="200dp"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_myphonenumber_id"
+                    android:text="My phone number"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv_locationdescription_id"
+                    android:layout_marginTop="40dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_Phonenumber_id"
+                    android:text="Phone number"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_myphonenumber_id"
+                    android:layout_marginTop="20dp"
+                    android:paddingLeft="50dp"
+                    android:paddingRight="50dp"
+                    android:paddingBottom="30dp"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_jobdescriptiontobedone_id"
+                    android:text="Job description to be done"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv_Phonenumber_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_jobdescription_id"
+                    android:text="Job description"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_below="@id/tv_jobdescriptiontobedone_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="80dp"
+                    android:paddingRight="80dp"
+                    android:paddingBottom="200dp"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_thedurationofemployment_id"
+                    android:text="The duration of Employment"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv_jobdescription_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_durationofjob_id"
+                    android:text="Job duration It take"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_below="@id/tv_thedurationofemployment_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingRight="70dp"
+                    android:paddingLeft="70dp"
+                    android:paddingBottom="200dp"/>
+
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_requirementsorskills_id"
+                    android:text="Requirements/Skills Needed"
+                    android:textColor="#000000"
+                    android:textSize="20dp"
+                    android:layout_below="@id/tv_durationofjob_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_requirementsneeded_id"
+                    android:text="Requirements and skills"
+                    android:textColor="#000000"
+                    android:textSize="15dp"
+                    android:layout_below="@id/tv_requirementsorskills_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"
+                    android:paddingLeft="70dp"
+                    android:paddingRight="70dp"
+                    android:paddingBottom="150dp"/>
+
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bt_home_id"
+                    android:text="Home"
+                    android:layout_below="@id/tv_requirementsneeded_id"
+                    android:layout_marginTop="30dp"
+                    android:layout_centerHorizontal="true"/>
+
+
+
+
+            </RelativeLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</RelativeLayout>

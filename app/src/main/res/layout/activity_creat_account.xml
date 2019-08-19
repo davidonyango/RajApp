@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreatAccountActivity"
+    android:background="#FFFF00">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_text_id"
+        android:text="Click the button to regigister an account"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:textSize="16dp"/>
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_creataccount_id"
+        android:text="creat an account"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_text_id"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="#8A4B08"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_loggintext_id"
+        android:text="Do you have an account?"
+        android:textColor="#000000"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/bt_creataccount_id"
+        android:textSize="16dp"/>
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bt_loggin_id"
+        android:text="loggin"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/tv_loggintext_id"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:background="#8A4B08"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
