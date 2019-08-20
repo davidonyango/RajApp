@@ -1,60 +1,58 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:androidx="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.androidx.com/tools"
+    androidx:layout_width="match_parent"
+    androidx:layout_height="match_parent"
     tools:context=".HomeActivity"
-    android:background="#FFFF00">
+    androidx:background="#FFFF00">
 
 
-    <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="120dp"
-        android:layout_height="110dp"
-        android:id="@+id/civ_circularprofile_id"
-        android:layout_marginTop="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_centerHorizontal="true"
-        android:src="@drawable/circularprofile"/>
+    <ImageView
+        androidx:layout_width="180dp"
+        androidx:layout_height="150dp"
+        androidx:src="@drawable/profna"
+        androidx:id="@+id/iv_profileimage_id"
+        androidx:layout_marginTop="20dp"
+        androidx:layout_centerHorizontal="true"/>
+
+    <Button
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/bt_upload_id"
+        androidx:layout_centerHorizontal="true"
+        androidx:text="upload"
+        androidx:textStyle="bold"
+        androidx:layout_marginTop="20dp"
+        androidx:layout_below="@id/iv_profileimage_id"
+        androidx:background="#8A4B08"
+        androidx:textColor="#ffffff"/>
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/bt_upload_id"
-        android:layout_centerHorizontal="true"
-        android:text="upload"
-        android:textStyle="bold"
-        android:layout_marginTop="20dp"
-        android:layout_below="@id/civ_circularprofile_id"
-        android:background="#8A4B08"
-        android:textColor="#ffffff"/>
+        androidx:id="@+id/bt_getrajhere_id"
+        androidx:layout_width="350dp"
+        androidx:layout_height="wrap_content"
+        androidx:layout_below="@id/bt_upload_id"
+        androidx:layout_marginTop="67dp"
+        androidx:text="get raj here"
+        androidx:layout_centerHorizontal="true"
+        androidx:textStyle="bold"
+        androidx:background="#8A4B08"
+        androidx:textColor="#ffffff"/>
 
 
     <Button
-        android:id="@+id/bt_getrajhere_id"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/bt_upload_id"
-        android:layout_marginTop="67dp"
-        android:text="get raj here"
-        android:layout_centerHorizontal="true"
-        android:textStyle="bold"
-        android:background="#8A4B08"
-        android:textColor="#ffffff"/>
-
-
-    <Button
-        android:id="@+id/bt_postrajhere_id"
-        android:layout_width="350dp"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/bt_getrajhere_id"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="66dp"
-        android:text="post raj here"
-        android:textStyle="bold"
-        android:background="#8A4B08"
-        android:textColor="#ffffff"/>
+        androidx:id="@+id/bt_postrajhere_id"
+        androidx:layout_width="350dp"
+        androidx:text="Post Raj Here"
+        androidx:layout_height="wrap_content"
+        androidx:layout_below="@id/bt_getrajhere_id"
+        androidx:layout_centerHorizontal="true"
+        androidx:layout_marginTop="66dp"
+        androidx:textStyle="bold"
+        androidx:background="#8A4B08"
+        androidx:textColor="#ffffff"/>
 
 
 

@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:androidx="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.androidx.com/tools"
+    androidx:layout_width="match_parent"
+    androidx:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="@drawable/ppn">
+    androidx:background="@drawable/ppn">
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_profiletext1_id"
-        android:text="NOW GET"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="50dp"
-        android:layout_centerHorizontal="true"/>
-
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_profiletext2_id"
-        android:text="READILY AVAILABLE"
-        android:textSize="30dp"
-        android:textStyle="italic"
-        android:layout_below="@id/tv_profiletext1_id"
-        android:textColor="#FFFFFF"
-        android:layout_marginTop="30dp"
-        android:layout_centerHorizontal="true"/>
-
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/tv_profiletext1_id"
+        androidx:text="NOW GET"
+        androidx:textSize="30dp"
+        androidx:textStyle="bold"
+        androidx:textColor="#FFFFFF"
+        androidx:layout_marginTop="50dp"
+        androidx:layout_centerHorizontal="true"/>
 
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_profiletext3_id"
-        android:text="JOBS HERE"
-        android:textSize="30dp"
-        android:textStyle="bold"
-        android:layout_below="@id/tv_profiletext2_id"
-        android:textColor="#FE2E2E"
-        android:layout_marginTop="35dp"
-        android:layout_centerHorizontal="true"/>
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/tv_profiletext2_id"
+        androidx:text="READILY AVAILABLE"
+        androidx:textSize="30dp"
+        androidx:textStyle="italic"
+        androidx:layout_below="@id/tv_profiletext1_id"
+        androidx:textColor="#FFFFFF"
+        androidx:layout_marginTop="30dp"
+        androidx:layout_centerHorizontal="true"/>
+
+
+
+
+    <TextView
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/tv_profiletext3_id"
+        androidx:text="JOBS HERE"
+        androidx:textSize="30dp"
+        androidx:textStyle="bold"
+        androidx:layout_below="@id/tv_profiletext2_id"
+        androidx:textColor="#FE2E2E"
+        androidx:layout_marginTop="35dp"
+        androidx:layout_centerHorizontal="true"/>
 
 
 

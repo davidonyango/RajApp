@@ -1,10 +1,11 @@
 package com.e.rajapp;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class GetrajActivity extends AppCompatActivity {
 
@@ -12,23 +13,25 @@ public class GetrajActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+      super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_getraj);
-
 
         home = (Button)findViewById(R.id.bt_home_id);
         home.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
 
-                bthome();
+                gohome();
+
             }
         });
+
     }
 
-    private void bthome() {
+    private void gohome() {
 
         Intent intent = new Intent(GetrajActivity.this,HomeActivity.class);
         startActivity(intent);
+
     }
 }

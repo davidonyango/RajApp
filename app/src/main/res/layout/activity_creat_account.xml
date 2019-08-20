@@ -1,69 +1,70 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:androidx="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.androidx.com/apk/res-auto"
+    xmlns:tools="http://schemas.androidx.com/tools"
+    androidx:layout_width="match_parent"
+    androidx:layout_height="match_parent"
     tools:context=".CreatAccountActivity"
-    android:background="#FFFF00">
+    androidx:background="#FFFF00">
 
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_text_id"
-        android:text="Click the button to regigister an account"
-        android:textColor="#000000"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:textSize="16dp"/>
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/tv_text_id"
+        androidx:text="Click the button to register an account"
+        androidx:textColor="#000000"
+        androidx:layout_centerHorizontal="true"
+        androidx:layout_marginTop="70dp"
+        androidx:textSize="16dp"/>
+
+
+    <Button
+        androidx:id="@+id/bt_createaccount_id"
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:layout_below="@id/tv_text_id"
+       androidx:layout_centerHorizontal="true"
+        androidx:layout_marginTop="21dp"
+        androidx:background="#8A4B08"
+        androidx:paddingLeft="20dp"
+        androidx:paddingRight="20dp"
+        androidx:text="create an account"
+        androidx:textColor="#ffffff"
+        androidx:textStyle="bold" />
+
+
+
+
+    <TextView
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/tv_loggintext_id"
+        androidx:text="Do you have an account?"
+        androidx:textColor="#000000"
+        androidx:layout_centerHorizontal="true"
+        androidx:layout_marginTop="70dp"
+        androidx:layout_below="@id/bt_createaccount_id"
+        androidx:textSize="16dp"/>
+
 
 
 
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/bt_creataccount_id"
-        android:text="creat an account"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/tv_text_id"
-        android:layout_marginTop="20dp"
-        android:textColor="#ffffff"
-        android:background="#8A4B08"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textStyle="bold"/>
+        androidx:layout_width="wrap_content"
+        androidx:layout_height="wrap_content"
+        androidx:id="@+id/bt_login_id"
+        androidx:text="login"
+        androidx:layout_centerHorizontal="true"
+        androidx:layout_below="@id/tv_loggintext_id"
+        androidx:layout_marginTop="20dp"
+        androidx:textColor="#ffffff"
+        androidx:background="#8A4B08"
+        androidx:paddingLeft="20dp"
+        androidx:paddingRight="20dp"
+        androidx:textStyle="bold"/>
 
 
-
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/tv_loggintext_id"
-        android:text="Do you have an account?"
-        android:textColor="#000000"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="70dp"
-        android:layout_below="@id/bt_creataccount_id"
-        android:textSize="16dp"/>
-
-
-
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/bt_loggin_id"
-        android:text="loggin"
-        android:layout_centerHorizontal="true"
-        android:layout_below="@id/tv_loggintext_id"
-        android:layout_marginTop="20dp"
-        android:textColor="#ffffff"
-        android:background="#8A4B08"
-        android:paddingLeft="20dp"
-        android:paddingRight="20dp"
-        android:textStyle="bold"/>
 
 
 

@@ -1,254 +1,254 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+<RelativeLayout xmlns:androidx="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.androidx.com/apk/res-auto"
+    xmlns:tools="http://schemas.androidx.com/tools"
+    androidx:layout_width="match_parent"
+    androidx:layout_height="match_parent"
     tools:context=".GetrajActivity"
-    android:orientation="horizontal"
-    android:background="#FFFF00">
+    androidx:orientation="horizontal"
+    androidx:background="#FFFF00">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/ll_scrollviewlayout_id">
+    <RelativeLayout
+        androidx:layout_width="match_parent"
+        androidx:layout_height="match_parent"
+        androidx:id="@+id/ll_scrollviewlayout_id">
 
         <ScrollView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:id="@+id/sv_scrollview_">
+            androidx:layout_width="match_parent"
+            androidx:layout_height="match_parent"
+            androidx:id="@+id/sv_scrollview_">
 
             <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:id="@+id/rl_contentlayout_id">
+                androidx:layout_width="match_parent"
+                androidx:layout_height="match_parent"
+                androidx:id="@+id/rl_contentlayout_id">
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_name_id"
-                    android:text="Name"
-                    android:layout_marginLeft="30dp"
-                    android:textSize="20dp"
-                    android:textColor="#000000"
-                    android:layout_marginTop="30dp"/>
-
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_myname_id"
-                    android:text="My name"
-                    android:textStyle="italic"
-                   android:layout_centerHorizontal="true"
-                    android:textSize="20dp"
-                    android:textColor="#000000"
-                    android:layout_marginTop="30dp"/>
-
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_name_id"
+                    androidx:text="Name"
+                    androidx:layout_marginLeft="30dp"
+                    androidx:textSize="20dp"
+                    androidx:textColor="#000000"
+                    androidx:layout_marginTop="30dp"/>
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_country_id"
-                    android:text="Country"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_below="@id/tv_name_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_marginLeft="20dp"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_myname_id"
+                    androidx:text="My name"
+                    androidx:textStyle="italic"
+                   androidx:layout_centerHorizontal="true"
+                    androidx:textSize="20dp"
+                    androidx:textColor="#000000"
+                    androidx:layout_marginTop="30dp"/>
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_countryname_id"
-                    android:text="Country name"
-                    android:textColor="#FFF000"
-                    android:textSize="20dp"
-                    android:textStyle="italic"
-                    android:layout_below="@id/tv_name_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_country_id"
+                    androidx:text="Country"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_below="@id/tv_name_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_marginLeft="20dp"/>
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_location_id"
-                    android:text="My location"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_marginTop="150dp"
-                    android:layout_centerHorizontal="true"/>
-
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_locationdescription_id"
-                    android:text="Location description"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:layout_marginTop="200dp"
-                    android:layout_centerHorizontal="true"
-                    android:paddingRight="80dp"
-                    android:paddingLeft="80dp"
-                    android:paddingBottom="200dp"/>
-
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_myphonenumber_id"
-                    android:text="My phone number"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_below="@id/tv_locationdescription_id"
-                    android:layout_marginTop="40dp"
-                    android:layout_centerHorizontal="true"/>
-
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_countryname_id"
+                    androidx:text="Country name"
+                    androidx:textColor="#FFF000"
+                    androidx:textSize="20dp"
+                    androidx:textStyle="italic"
+                    androidx:layout_below="@id/tv_name_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"/>
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_Phonenumber_id"
-                    android:text="Phone number"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:layout_centerHorizontal="true"
-                    android:layout_below="@id/tv_myphonenumber_id"
-                    android:layout_marginTop="20dp"
-                    android:paddingLeft="50dp"
-                    android:paddingRight="50dp"
-                    android:paddingBottom="30dp"/>
-
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_location_id"
+                    androidx:text="My location"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_marginTop="150dp"
+                    androidx:layout_centerHorizontal="true"/>
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_jobdescriptiontobedone_id"
-                    android:text="Job description to be done"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_below="@id/tv_Phonenumber_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"/>
-
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_locationdescription_id"
+                    androidx:text="Location description"
+                    androidx:textColor="#000000"
+                    androidx:textSize="15dp"
+                    androidx:layout_marginTop="200dp"
+                    androidx:layout_centerHorizontal="true"
+                    androidx:paddingRight="80dp"
+                    androidx:paddingLeft="80dp"
+                    androidx:paddingBottom="200dp"/>
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_jobdescription_id"
-                    android:text="Job description"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:layout_below="@id/tv_jobdescriptiontobedone_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"
-                    android:paddingLeft="80dp"
-                    android:paddingRight="80dp"
-                    android:paddingBottom="200dp"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_myphonenumber_id"
+                    androidx:text="My phone number"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_below="@id/tv_locationdescription_id"
+                    androidx:layout_marginTop="40dp"
+                    androidx:layout_centerHorizontal="true"/>
 
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_thedurationofemployment_id"
-                    android:text="The duration of Employment"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_below="@id/tv_jobdescription_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"/>
-
-
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_durationofjob_id"
-                    android:text="Job duration It take"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:layout_below="@id/tv_thedurationofemployment_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"
-                    android:paddingRight="70dp"
-                    android:paddingLeft="70dp"
-                    android:paddingBottom="200dp"/>
-
-
-
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_Phonenumber_id"
+                    androidx:text="Phone number"
+                    androidx:textColor="#000000"
+                    androidx:textSize="15dp"
+                    androidx:layout_centerHorizontal="true"
+                    androidx:layout_below="@id/tv_myphonenumber_id"
+                    androidx:layout_marginTop="20dp"
+                    androidx:paddingLeft="50dp"
+                    androidx:paddingRight="50dp"
+                    androidx:paddingBottom="30dp"/>
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_requirementsorskills_id"
-                    android:text="Requirements/Skills Needed"
-                    android:textColor="#000000"
-                    android:textSize="20dp"
-                    android:layout_below="@id/tv_durationofjob_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_jobdescriptiontobedone_id"
+                    androidx:text="Job description to be done"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_below="@id/tv_Phonenumber_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"/>
+
+
+
+
+                <TextView
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_jobdescription_id"
+                    androidx:text="Job description"
+                    androidx:textColor="#000000"
+                    androidx:textSize="15dp"
+                    androidx:layout_below="@id/tv_jobdescriptiontobedone_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"
+                    androidx:paddingLeft="80dp"
+                    androidx:paddingRight="80dp"
+                    androidx:paddingBottom="200dp"/>
 
 
 
 
 
                 <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/tv_requirementsneeded_id"
-                    android:text="Requirements and skills"
-                    android:textColor="#000000"
-                    android:textSize="15dp"
-                    android:layout_below="@id/tv_requirementsorskills_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"
-                    android:paddingLeft="70dp"
-                    android:paddingRight="70dp"
-                    android:paddingBottom="150dp"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_thedurationofemployment_id"
+                    androidx:text="The duration of Employment"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_below="@id/tv_jobdescription_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"/>
+
+
+
+                <TextView
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_durationofjob_id"
+                    androidx:text="Job duration It take"
+                    androidx:textColor="#000000"
+                    androidx:textSize="15dp"
+                    androidx:layout_below="@id/tv_thedurationofemployment_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"
+                    androidx:paddingRight="70dp"
+                    androidx:paddingLeft="70dp"
+                    androidx:paddingBottom="200dp"/>
+
+
+
+
+
+
+
+                <TextView
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_requirementsorskills_id"
+                    androidx:text="Requirements/Skills Needed"
+                    androidx:textColor="#000000"
+                    androidx:textSize="20dp"
+                    androidx:layout_below="@id/tv_durationofjob_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"/>
+
+
+
+
+
+                <TextView
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/tv_requirementsneeded_id"
+                    androidx:text="Requirements and skills"
+                    androidx:textColor="#000000"
+                    androidx:textSize="15dp"
+                    androidx:layout_below="@id/tv_requirementsorskills_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"
+                    androidx:paddingLeft="70dp"
+                    androidx:paddingRight="70dp"
+                    androidx:paddingBottom="150dp"/>
 
 
 
                 <Button
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:id="@+id/bt_home_id"
-                    android:text="Home"
-                    android:layout_below="@id/tv_requirementsneeded_id"
-                    android:layout_marginTop="30dp"
-                    android:layout_centerHorizontal="true"/>
+                    androidx:layout_width="wrap_content"
+                    androidx:layout_height="wrap_content"
+                    androidx:id="@+id/bt_home_id"
+                    androidx:text="Home"
+                    androidx:layout_below="@id/tv_requirementsneeded_id"
+                    androidx:layout_marginTop="30dp"
+                    androidx:layout_centerHorizontal="true"/>
 
 
 
 
             </RelativeLayout>
         </ScrollView>
-    </LinearLayout>
+    </RelativeLayout>
 
 </RelativeLayout>
